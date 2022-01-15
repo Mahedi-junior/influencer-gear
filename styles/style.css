@@ -35,7 +35,7 @@ grid-template-columns: repeat(2, 1fr);
 justify-items: center;
 }
 .right-banner img{
-background-image: url(/images/Circle\ design.svg);
+background-image: url(images/Circle\ design.svg);
 }
 
 h1 {
