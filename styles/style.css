@@ -4,8 +4,15 @@ body {
 font-family: "Poppins", sans-serif;
 }
 .header {
+    background-color: darkcyan;
+padding: 10px;
+width: 90%;
 margin: 0 auto;
-background-color: aquamarine;
+/* background-color: aquamarine; */
+}
+.header-title{
+    font-size: 20px;
+    font-weight: 300;
 }
 nav {
 display: flex;
@@ -20,6 +27,8 @@ margin: 10px;
 }
 li a {
 text-decoration: none;
+color: black;
+font-size: 20px;
 }
 
 
@@ -43,14 +52,24 @@ h1 {
 font-weight: 700;
 font-size: 52px;
 }
-.left-banner a {
+.pressbook{
+margin-top: 10px;
+color: rgb(253, 251, 251);
+font-size: 16px;
+padding: 10px 24px;
+background-color: #E02C6D;
+border: none;
+border-radius: 30px;
+}
+
+ .left-banner a {  
     color: whitesmoke;
     font-size: 16px;
-text-decoration: none;
-background-color: #e02c6d;
-padding: 30px, 24px;
-border-radius: 20px;
-padding: 7px 10px;
+/* text-decoration: none; */
+/* background-color: #e02c6d; */
+/* padding: 30px, 24px; */
+/* border-radius: 20px; */
+/* padding: 7px 10px;  */
 }
 
 /* --------main------ */
@@ -61,6 +80,7 @@ grid-gap: 50px;
 align-items: center;
 justify-items: center; 
 padding: 70px; 
+margin-bottom: 0 PX;
 }
 .collections {
 padding: 0 10px;
@@ -92,6 +112,8 @@ font-size: 22px;
 font-weight: 100;
 }
 .title {
+    font-size: 30px;
+    margin-bottom: 0;
 text-align: center;
 }
 .rating {
@@ -107,6 +129,7 @@ span{
 .fa-star.field {
 color: #ffc014;
 }
+
 
 /* -----------footer----------------- */
 footer{
